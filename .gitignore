@@ -1,0 +1,16 @@
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Compiled output
+out/
+*.class
+
+# Environment / Secrets
+.env
+
+# OS
+.DS_Store
+Thumbs.db
