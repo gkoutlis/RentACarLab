@@ -1,9 +1,11 @@
+import db.DBConfig;
+
 import java.sql.Connection;
 
 public class Main {
     public static void main(String[] args) {
         System.out.println("Ξεκινάει ο έλεγχος...");
-        Connection conn = DBConfing.connect();
+        Connection conn = DBConfig.connect();
 
         if (conn != null){
             System.out.println("Συγχαρητήρια !!! Η JAVA μιλάει με την POSTGRESQL.0");
