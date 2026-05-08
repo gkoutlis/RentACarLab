@@ -70,7 +70,6 @@ public class Car extends BaseEntity {
     @Override
     public String toString() {
         return "Car{" +
-                "id=" + id +
                 ", model='" + model + '\'' +
                 ", costPerDay=" + costPerDay +
                 ", horsePower=" + horsePower +
