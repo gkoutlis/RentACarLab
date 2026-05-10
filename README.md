@@ -42,3 +42,9 @@ Final project for Java seminar at KDBM Datalabs.
 
 Moving to web technologies (React + REST APIs) to apply 
 the same architectural patterns in a modern stack.
+
+## 🚧 Status
+
+Project still in progress — forms are being uploaded incrementally.
+Core architecture (model, DAO, database) is complete and tested.
+GUI layer is being added gradually.
