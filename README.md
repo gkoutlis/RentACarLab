@@ -1,7 +1,7 @@
 # RentACarLab
 
 Java Swing application for managing a car rental business.
-Final project for Java seminar.
+Final project for Java seminar at KDBM Datalabs
 
 ## Tech Stack
 - Java
@@ -21,7 +21,7 @@ Final project for Java seminar.
 1. Start PostgreSQL via Docker
 2. Run schema from `database/schema.sql`
 3. Configure `config.properties` with your credentials
-4. Run `MainFrame.main()`
+4. Run `MainFrame.main()` from `src/gui/MainFrame.java`
 
 ## Features
 - ✅ Full CRUD for Categories, Cars, Clients, Rents
