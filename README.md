@@ -22,13 +22,6 @@ Final project for Java seminar at KDBM Datalabs.
 - Swing (GUI)
 - JDBC (no ORM — manual mapping for learning purposes)
 
-## 📐 Architecture
-
-src/
-├── model/      # Entity classes (BaseEntity hierarchy)
-├── dao/        # Data Access Objects (CRUD operations)
-├── gui/        # Swing forms
-└── db/         # Database connection config
 
 ## ✨ Features
 
