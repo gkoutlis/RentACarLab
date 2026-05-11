@@ -59,11 +59,7 @@ public class Rent extends BaseEntity {
 
     @Override
     public String toString() {
-        return "Rent{" +
-                "days=" + days +
-                ", dateAt=" + dateAt +
-                ", client=" + client +
-                ", car=" + car +
-                '}';
+        return "#" + id + " " + client.getName() + " → " + car.getModel() +
+                " (" + days + " μέρες, " + dateAt + ")";
     }
 }

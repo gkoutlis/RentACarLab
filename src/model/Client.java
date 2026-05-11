@@ -76,7 +76,7 @@ public class Client extends BaseEntity {
         this.name = name;
     }
     @Override
-    public String toString(){
-        return "name: " + name + ", surname: " + surname + ", gender: " + gender + ", address: " + address + ", email: "+ email + ", phone: " + phone;
+    public String toString() {
+        return id + " - " + name + " " + surname;
     }
 }
