@@ -26,47 +26,47 @@ public class CarForm extends JFrame {
         setLocationRelativeTo(null);
         setLayout(new GridLayout(10, 1, 5, 5));
 
-        // Μοντέλο
+
         JPanel p1 = new JPanel(new FlowLayout(FlowLayout.LEFT));
         p1.add(new JLabel("Μοντέλο:"));
         modelField = new JTextField(20);
         p1.add(modelField);
         add(p1);
 
-        // Κόστος ημέρας
+
         JPanel p2 = new JPanel(new FlowLayout(FlowLayout.LEFT));
         p2.add(new JLabel("Κόστος/μέρα (€):"));
         costField = new JTextField(20);
         p2.add(costField);
         add(p2);
 
-        // Ίπποι
+
         JPanel p3 = new JPanel(new FlowLayout(FlowLayout.LEFT));
         p3.add(new JLabel("Κυβικά:"));
         powerField = new JTextField(20);
         p3.add(powerField);
         add(p3);
 
-        // Θέσεις
+
         JPanel p4 = new JPanel(new FlowLayout(FlowLayout.LEFT));
         p4.add(new JLabel("Θέσεις:"));
         seatsField = new JTextField(20);
         p4.add(seatsField);
         add(p4);
 
-        // Κατηγορία
+
         JPanel p5 = new JPanel(new FlowLayout(FlowLayout.LEFT));
         p5.add(new JLabel("Κατηγορία:"));
         categoryCombo = new JComboBox<>();
         p5.add(categoryCombo);
         add(p5);
 
-        // Κουμπί: Προσθήκη
+
         JButton addBtn = new JButton("Προσθήκη Αυτοκινήτου");
         addBtn.addActionListener(e -> addCar());
         add(addBtn);
 
-        // Dropdown αυτοκινήτων
+
         JPanel p6 = new JPanel(new FlowLayout(FlowLayout.LEFT));
         p6.add(new JLabel("Επιλογή:"));
         carCombo = new JComboBox<>();
@@ -77,17 +77,17 @@ public class CarForm extends JFrame {
         editBtn.addActionListener(e -> editCar());
         add(editBtn);
 
-        // Κουμπί: Διαγραφή
+
         JButton deleteBtn = new JButton("Διαγραφή Επιλεγμένου");
         deleteBtn.addActionListener(e -> deleteCar());
         add(deleteBtn);
 
-        // Κουμπί: Πίσω
+
         JButton backBtn = new JButton("← Πίσω στο Μενού");
         backBtn.addActionListener(e -> dispose());
         add(backBtn);
 
-        // Listener: γέμιζε πεδία όταν επιλέγεται αυτοκίνητο
+
         carCombo.addActionListener(e -> {
             Car selected = (Car) carCombo.getSelectedItem();
             if (selected != null) {
