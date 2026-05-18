@@ -43,8 +43,8 @@ Final project for Java seminar at KDBM Datalabs.
 Moving to web technologies (React + REST APIs) to apply 
 the same architectural patterns in a modern stack.
 
-## 🚧 Status
+## 📜 Credits & Context
 
-Project still in progress — forms are being uploaded incrementally.
-Core architecture (model, DAO, database) is complete and tested.
-GUI layer is being added gradually.
+This project was developed as part of the **Java** module at **KDBM Datalabs**.
+
+**Objective:** To demonstrate proficiency in core Java and OOP principles (inheritance, polymorphism, composition), implementing the DAO pattern for database access, designing relational schemas with PostgreSQL, and building functional desktop GUIs with Swing in Linux-based environments.
